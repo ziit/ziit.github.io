@@ -1,1 +1,1 @@
-A Single page supported by Github.
+A single page supported by Github.
