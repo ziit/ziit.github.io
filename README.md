@@ -1,2 +1,1 @@
-## FENG.TK
-Supported by Github.
+A Single page Supported by Github.
