@@ -7,6 +7,18 @@
 <!-- 
 body {font-size:16px} 
 -->
+
+mycolor {
+  background-image: -webkit-linear-gradient(right, blue, red);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-animation: animate 6s infinite linear;
+  }
+@-webkit-keyframes animate {
+  from {-webkit-filter: hue-rotate(0deg);}
+  to {-webkit-filter: hue-rotate(360deg);}
+  }
+
 </style>
 <SCRIPT type=text/javascript>
 function $(xixi) { 
@@ -49,8 +61,8 @@ $("fs30").style.display = "";
 <table border=0 cellspacing=0 cellpadding=0 width=100% style='width:100%;margin-left:-1px;border-collapse:collapse; border:none'>
  
  <tr style='height:85px'>
-  <td style='background:linear-gradient(to top,#81BEF7,#C5E0B3);padding:0px 8px 0px 8px'>
-  <p align=center style='font-size:30px;color:lightgray'>﹏⛵ <b><a href="https://xiaoyaodao.com" style="font-family:LiSu,KaiTi;color:darkred;text-decoration:none">逍 遥 岛</a></b> 🌅﹏</p>
+  <td style='background:linear-gradient(to top,#58ACFA 30%,white);padding:0px 8px 0px 8px'>
+  <p align=center style='font-size:30px;color:lightgray'>﹏⛵ <b><mycolor><a href="https://xiaoyaodao.com" style="font-family:LiSu,KaiTi;text-decoration:none;text-shadow: 1px 1px 3px blue">逍 遥 岛</a></mycolor></b> 🌅﹏</p>
   
   <DIV class=fontSize id=fs12 align=right style="DISPLAY:none;color:white"><A href="javascript:doZoom(30)">大</A><A href="javascript:doZoom(16)">中</A><SPAN>小</SPAN></DIV>
   <DIV class=fontSize id=fs16 align=right style="color:white"><A href="javascript:doZoom(30)">大</A><SPAN>中</SPAN><A href="javascript:doZoom(12)">小</A></DIV>
